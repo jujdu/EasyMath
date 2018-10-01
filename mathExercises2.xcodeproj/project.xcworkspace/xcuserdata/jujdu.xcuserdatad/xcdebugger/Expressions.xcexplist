@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.checkResult(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sum">
+            </PersistentString>
+            <PersistentString
+               value = "yourDecision.currentTitle">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.newRound():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "yourDecision.titleLabel!.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in ViewController.checkResult(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "yourDecision.titleLabel!.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.setDecision(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "yourDecision.titleLabel!.text">
+            </PersistentString>
+            <PersistentString
+               value = "yourDecision.titleLabel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
