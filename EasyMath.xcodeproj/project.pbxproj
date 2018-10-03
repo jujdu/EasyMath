@@ -32,15 +32,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6FB7F565213DF58200245112 /* mathExercises2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mathExercises2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB7F565213DF58200245112 /* EasyMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB7F568213DF58200245112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FB7F56A213DF58200245112 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6FB7F56D213DF58200245112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FB7F56F213DF58200245112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FB7F572213DF58200245112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FB7F574213DF58200245112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FB7F579213DF58300245112 /* mathExercises2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mathExercises2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FB7F584213DF58300245112 /* mathExercises2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mathExercises2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB7F579213DF58300245112 /* EasyMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB7F584213DF58300245112 /* EasyMathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyMathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 		6FB7F55C213DF58200245112 = {
 			isa = PBXGroup;
 			children = (
-				6FB7F567213DF58200245112 /* mathExercises2 */,
+				6FB7F567213DF58200245112 /* EasyMath */,
 				6FB7F566213DF58200245112 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,14 +79,14 @@
 		6FB7F566213DF58200245112 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6FB7F565213DF58200245112 /* mathExercises2.app */,
-				6FB7F579213DF58300245112 /* mathExercises2Tests.xctest */,
-				6FB7F584213DF58300245112 /* mathExercises2UITests.xctest */,
+				6FB7F565213DF58200245112 /* EasyMath.app */,
+				6FB7F579213DF58300245112 /* EasyMathTests.xctest */,
+				6FB7F584213DF58300245112 /* EasyMathUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6FB7F567213DF58200245112 /* mathExercises2 */ = {
+		6FB7F567213DF58200245112 /* EasyMath */ = {
 			isa = PBXGroup;
 			children = (
 				6FB7F568213DF58200245112 /* AppDelegate.swift */,
@@ -96,15 +96,15 @@
 				6FB7F571213DF58200245112 /* LaunchScreen.storyboard */,
 				6FB7F574213DF58200245112 /* Info.plist */,
 			);
-			path = mathExercises2;
+			path = EasyMath;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6FB7F564213DF58200245112 /* mathExercises2 */ = {
+		6FB7F564213DF58200245112 /* EasyMath */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FB7F58D213DF58300245112 /* Build configuration list for PBXNativeTarget "mathExercises2" */;
+			buildConfigurationList = 6FB7F58D213DF58300245112 /* Build configuration list for PBXNativeTarget "EasyMath" */;
 			buildPhases = (
 				6FB7F561213DF58200245112 /* Sources */,
 				6FB7F562213DF58200245112 /* Frameworks */,
@@ -114,14 +114,14 @@
 			);
 			dependencies = (
 			);
-			name = mathExercises2;
+			name = EasyMath;
 			productName = mathExercises2;
-			productReference = 6FB7F565213DF58200245112 /* mathExercises2.app */;
+			productReference = 6FB7F565213DF58200245112 /* EasyMath.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6FB7F578213DF58300245112 /* mathExercises2Tests */ = {
+		6FB7F578213DF58300245112 /* EasyMathTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FB7F590213DF58300245112 /* Build configuration list for PBXNativeTarget "mathExercises2Tests" */;
+			buildConfigurationList = 6FB7F590213DF58300245112 /* Build configuration list for PBXNativeTarget "EasyMathTests" */;
 			buildPhases = (
 				6FB7F575213DF58300245112 /* Sources */,
 				6FB7F576213DF58300245112 /* Frameworks */,
@@ -132,14 +132,14 @@
 			dependencies = (
 				6FB7F57B213DF58300245112 /* PBXTargetDependency */,
 			);
-			name = mathExercises2Tests;
+			name = EasyMathTests;
 			productName = mathExercises2Tests;
-			productReference = 6FB7F579213DF58300245112 /* mathExercises2Tests.xctest */;
+			productReference = 6FB7F579213DF58300245112 /* EasyMathTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6FB7F583213DF58300245112 /* mathExercises2UITests */ = {
+		6FB7F583213DF58300245112 /* EasyMathUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FB7F593213DF58300245112 /* Build configuration list for PBXNativeTarget "mathExercises2UITests" */;
+			buildConfigurationList = 6FB7F593213DF58300245112 /* Build configuration list for PBXNativeTarget "EasyMathUITests" */;
 			buildPhases = (
 				6FB7F580213DF58300245112 /* Sources */,
 				6FB7F581213DF58300245112 /* Frameworks */,
@@ -150,9 +150,9 @@
 			dependencies = (
 				6FB7F586213DF58300245112 /* PBXTargetDependency */,
 			);
-			name = mathExercises2UITests;
+			name = EasyMathUITests;
 			productName = mathExercises2UITests;
-			productReference = 6FB7F584213DF58300245112 /* mathExercises2UITests.xctest */;
+			productReference = 6FB7F584213DF58300245112 /* EasyMathUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -178,7 +178,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6FB7F560213DF58200245112 /* Build configuration list for PBXProject "mathExercises2" */;
+			buildConfigurationList = 6FB7F560213DF58200245112 /* Build configuration list for PBXProject "EasyMath" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -191,9 +191,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6FB7F564213DF58200245112 /* mathExercises2 */,
-				6FB7F578213DF58300245112 /* mathExercises2Tests */,
-				6FB7F583213DF58300245112 /* mathExercises2UITests */,
+				6FB7F564213DF58200245112 /* EasyMath */,
+				6FB7F578213DF58300245112 /* EasyMathTests */,
+				6FB7F583213DF58300245112 /* EasyMathUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,12 +254,12 @@
 /* Begin PBXTargetDependency section */
 		6FB7F57B213DF58300245112 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6FB7F564213DF58200245112 /* mathExercises2 */;
+			target = 6FB7F564213DF58200245112 /* EasyMath */;
 			targetProxy = 6FB7F57A213DF58300245112 /* PBXContainerItemProxy */;
 		};
 		6FB7F586213DF58300245112 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6FB7F564213DF58200245112 /* mathExercises2 */;
+			target = 6FB7F564213DF58200245112 /* EasyMath */;
 			targetProxy = 6FB7F585213DF58300245112 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -405,12 +405,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A9D7992LUJ;
-				INFOPLIST_FILE = mathExercises2/Info.plist;
+				INFOPLIST_FILE = EasyMath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sidoruk.mathExercises2;
+				PRODUCT_BUNDLE_IDENTIFIER = sidoruk.EasyMath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -425,12 +425,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A9D7992LUJ;
-				INFOPLIST_FILE = mathExercises2/Info.plist;
+				INFOPLIST_FILE = EasyMath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sidoruk.mathExercises2;
+				PRODUCT_BUNDLE_IDENTIFIER = sidoruk.EasyMath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -455,7 +455,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mathExercises2.app/mathExercises2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyMath.app/EasyMath";
 			};
 			name = Debug;
 		};
@@ -476,7 +476,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mathExercises2.app/mathExercises2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyMath.app/EasyMath";
 			};
 			name = Release;
 		};
@@ -523,7 +523,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6FB7F560213DF58200245112 /* Build configuration list for PBXProject "mathExercises2" */ = {
+		6FB7F560213DF58200245112 /* Build configuration list for PBXProject "EasyMath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FB7F58B213DF58300245112 /* Debug */,
@@ -532,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FB7F58D213DF58300245112 /* Build configuration list for PBXNativeTarget "mathExercises2" */ = {
+		6FB7F58D213DF58300245112 /* Build configuration list for PBXNativeTarget "EasyMath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FB7F58E213DF58300245112 /* Debug */,
@@ -541,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FB7F590213DF58300245112 /* Build configuration list for PBXNativeTarget "mathExercises2Tests" */ = {
+		6FB7F590213DF58300245112 /* Build configuration list for PBXNativeTarget "EasyMathTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FB7F591213DF58300245112 /* Debug */,
@@ -550,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FB7F593213DF58300245112 /* Build configuration list for PBXNativeTarget "mathExercises2UITests" */ = {
+		6FB7F593213DF58300245112 /* Build configuration list for PBXNativeTarget "EasyMathUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FB7F594213DF58300245112 /* Debug */,

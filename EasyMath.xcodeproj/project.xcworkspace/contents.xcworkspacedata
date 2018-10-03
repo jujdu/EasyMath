@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:mathExercises2.xcodeproj">
+      location = "self:/Users/jujdu/Desktop/MyProjects/Books/EasyMath/EasyMath/EasyMath.xcodeproj">
    </FileRef>
 </Workspace>
