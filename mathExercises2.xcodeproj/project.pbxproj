@@ -12,8 +12,6 @@
 		6FB7F56E213DF58200245112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB7F56C213DF58200245112 /* Main.storyboard */; };
 		6FB7F570213DF58200245112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FB7F56F213DF58200245112 /* Assets.xcassets */; };
 		6FB7F573213DF58200245112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB7F571213DF58200245112 /* LaunchScreen.storyboard */; };
-		6FB7F57E213DF58300245112 /* mathExercises2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7F57D213DF58300245112 /* mathExercises2Tests.swift */; };
-		6FB7F589213DF58300245112 /* mathExercises2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7F588213DF58300245112 /* mathExercises2UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		6FB7F572213DF58200245112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FB7F574213DF58200245112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FB7F579213DF58300245112 /* mathExercises2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mathExercises2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FB7F57D213DF58300245112 /* mathExercises2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mathExercises2Tests.swift; sourceTree = "<group>"; };
-		6FB7F57F213DF58300245112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FB7F584213DF58300245112 /* mathExercises2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mathExercises2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FB7F588213DF58300245112 /* mathExercises2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mathExercises2UITests.swift; sourceTree = "<group>"; };
-		6FB7F58A213DF58300245112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				6FB7F567213DF58200245112 /* mathExercises2 */,
-				6FB7F57C213DF58300245112 /* mathExercises2Tests */,
-				6FB7F587213DF58300245112 /* mathExercises2UITests */,
 				6FB7F566213DF58200245112 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				6FB7F574213DF58200245112 /* Info.plist */,
 			);
 			path = mathExercises2;
-			sourceTree = "<group>";
-		};
-		6FB7F57C213DF58300245112 /* mathExercises2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6FB7F57D213DF58300245112 /* mathExercises2Tests.swift */,
-				6FB7F57F213DF58300245112 /* Info.plist */,
-			);
-			path = mathExercises2Tests;
-			sourceTree = "<group>";
-		};
-		6FB7F587213DF58300245112 /* mathExercises2UITests */ = {
-			isa = PBXGroup;
-			children = (
-				6FB7F588213DF58300245112 /* mathExercises2UITests.swift */,
-				6FB7F58A213DF58300245112 /* Info.plist */,
-			);
-			path = mathExercises2UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FB7F57E213DF58300245112 /* mathExercises2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FB7F589213DF58300245112 /* mathExercises2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

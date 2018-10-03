@@ -3,6 +3,28 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "ViewController.setDecision(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "yourDecision.titleLabel!.text">
+            </PersistentString>
+            <PersistentString
+               value = "yourDecision.titleLabel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.changeButtonsActivity(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "button.layer.backgroundColor">
+            </PersistentString>
+            <PersistentString
+               value = "button.titleLabel?.textColor">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "ViewController.checkResult(_:):ViewController.swift">
          <PersistentStrings>
             <PersistentString
@@ -10,14 +32,6 @@
             </PersistentString>
             <PersistentString
                value = "yourDecision.currentTitle">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "ViewController.newRound():ViewController.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "yourDecision.titleLabel!.text">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -30,13 +44,10 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "ViewController.setDecision(_:):ViewController.swift">
+         contextName = "ViewController.newRound():ViewController.swift">
          <PersistentStrings>
             <PersistentString
                value = "yourDecision.titleLabel!.text">
-            </PersistentString>
-            <PersistentString
-               value = "yourDecision.titleLabel">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

@@ -41,7 +41,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="setDecision:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CpA-RG-sTD"/>
+                                            <action selector="setDecisionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CpA-RG-sTD"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ER-H3-PiB" customClass="RoundButtons" customModule="mathExercises2" customModuleProvider="target">
@@ -52,7 +52,7 @@
                                             <color key="titleColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
-                                            <action selector="setDecision:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pcY-06-mTa"/>
+                                            <action selector="setDecisionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pcY-06-mTa"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xow-WE-lv4" customClass="RoundButtons" customModule="mathExercises2" customModuleProvider="target">
@@ -63,7 +63,7 @@
                                             <color key="titleColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
-                                            <action selector="setDecision:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bJy-L5-h5n"/>
+                                            <action selector="setDecisionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bJy-L5-h5n"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r91-op-CEf" customClass="RoundButtons" customModule="mathExercises2" customModuleProvider="target">
@@ -74,7 +74,7 @@
                                             <color key="titleColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
-                                            <action selector="setDecision:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aNe-BP-xAG"/>
+                                            <action selector="setDecisionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aNe-BP-xAG"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRT-7R-8XK" customClass="RoundButtons" customModule="mathExercises2" customModuleProvider="target">
@@ -85,7 +85,7 @@
                                             <color key="titleColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
-                                            <action selector="setDecision:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9N9-ZL-afD"/>
+                                            <action selector="setDecisionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9N9-ZL-afD"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6rw-Lh-Ca2" customClass="RoundButtons" customModule="mathExercises2" customModuleProvider="target">
@@ -96,7 +96,7 @@
                                             <color key="titleColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
-                                            <action selector="setDecision:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bZO-On-oY9"/>
+                                            <action selector="setDecisionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bZO-On-oY9"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvu-v0-otY" customClass="RoundButtons" customModule="mathExercises2" customModuleProvider="target">
@@ -107,7 +107,7 @@
                                             <color key="titleColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
-                                            <action selector="setDecision:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wsO-ui-WWn"/>
+                                            <action selector="setDecisionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wsO-ui-WWn"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IjI-1I-Tag" customClass="RoundButtons" customModule="mathExercises2" customModuleProvider="target">
@@ -118,7 +118,7 @@
                                             <color key="titleColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
-                                            <action selector="setDecision:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aQe-mp-az5"/>
+                                            <action selector="setDecisionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aQe-mp-az5"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4v-ii-HkB" customClass="RoundButtons" customModule="mathExercises2" customModuleProvider="target">
@@ -129,7 +129,7 @@
                                             <color key="titleColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
-                                            <action selector="setDecision:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fFc-11-0e1"/>
+                                            <action selector="setDecisionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fFc-11-0e1"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOv-Ng-H33" customClass="RoundButtons" customModule="mathExercises2" customModuleProvider="target">
@@ -140,7 +140,7 @@
                                             <color key="titleColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
-                                            <action selector="setDecision:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H2U-e2-8nk"/>
+                                            <action selector="setDecisionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H2U-e2-8nk"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -202,7 +202,6 @@
                                 </segments>
                                 <color key="tintColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <connections>
-                                    <action selector="changeComplexity:" destination="BYZ-38-t0r" eventType="valueChanged" id="XKm-5u-dhv"/>
                                     <action selector="switchLevelAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="BT8-tJ-4NX"/>
                                 </connections>
                             </segmentedControl>
@@ -216,19 +215,18 @@
                                     <color key="titleColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="checkResult:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yI1-tK-zyL"/>
+                                    <action selector="checkResultOfTaskAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yI1-tK-zyL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="crG-rH-l4t">
-                                <rect key="frame" x="83" y="212" width="209" height="77"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="crG-rH-l4t">
+                                <rect key="frame" x="73" y="211" width="229" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.67843137254901964" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="75"/>
-                                <state key="normal" title="YourDecision">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="86"/>
+                                <state key="normal" title="decisionLabel">
                                     <color key="titleColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="cleanValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l3J-98-CKS"/>
+                                    <action selector="cleanValueAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l3J-98-CKS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -240,13 +238,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="goal" destination="zkK-mO-4s7" id="ehh-gi-Kw8"/>
-                        <outlet property="levelControlerSegment" destination="biN-mR-5SC" id="rlf-rV-UXH"/>
+                        <outlet property="decisionLabel" destination="crG-rH-l4t" id="X3I-9T-vn9"/>
+                        <outlet property="levelSegmentedControl" destination="biN-mR-5SC" id="Oii-vx-nu9"/>
                         <outlet property="scoreLabel" destination="YLV-CK-KK8" id="eqg-ka-6cZ"/>
-                        <outlet property="segmentedControl" destination="biN-mR-5SC" id="Oii-vx-nu9"/>
-                        <outlet property="startResultButton" destination="4Ev-GT-aLq" id="UzL-Ts-dQb"/>
+                        <outlet property="startCheckButton" destination="4Ev-GT-aLq" id="UzL-Ts-dQb"/>
+                        <outlet property="taskLabel" destination="zkK-mO-4s7" id="ehh-gi-Kw8"/>
                         <outlet property="timerLabel" destination="nnA-bv-tIa" id="u2x-RE-dWP"/>
-                        <outlet property="yourDecision" destination="crG-rH-l4t" id="X3I-9T-vn9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
