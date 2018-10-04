@@ -42,12 +42,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         timerLabel.text = "\(statedSecondsOfTimer)"
         resetStatusStartCheckButton()
+        
         decisionLabel.setTitle("", for: .normal)
         decisionLabel.layer.cornerRadius = 10
         decisionLabel.layer.masksToBounds = true
         taskLabel.isHidden = true
         enableZeroToNineButtons(false)
         view.backgroundColor = #colorLiteral(red: 0.1333333333, green: 0.1568627451, blue: 0.1921568627, alpha: 1)
+        
         let font = UIFont.systemFont(ofSize: 20)
         levelSegmentedControl.setTitleTextAttributes([NSAttributedStringKey.font: font],
                                                      for: .normal)
@@ -70,10 +72,13 @@ class ViewController: UIViewController {
         secondNumber = Int(arc4random_uniform(UInt32(value)) + 1)
         self.sumOfNumbers = firstNumber + secondNumber
     }
+    
     func newRound() {
         decisionLabel.isHidden = false
         taskLabel.isHidden = false
+        
         mathTask(value: valueForRandomzer)
+        
         startCheckButton.setTitle("Check", for: .normal)
         startCheckButton.backgroundColor = #colorLiteral(red: 0, green: 0.6784313725, blue: 0.7098039216, alpha: 1)
         startCheckButton.setTitleColor(#colorLiteral(red: 0.9332413673, green: 0.9333977103, blue: 0.9332208037, alpha: 1), for: .normal)
@@ -81,6 +86,7 @@ class ViewController: UIViewController {
         decisionLabel.setTitle("", for: .normal)
         secondsOfTimer = statedSecondsOfTimer
         timerLabel.text = "\(statedSecondsOfTimer)"
+        
         runTimer()
         enableZeroToNineButtons(true)
     }
@@ -126,6 +132,7 @@ class ViewController: UIViewController {
         enableZeroToNineButtons(true)
         }
     }
+    
     func showAlert(message: String) {
    
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
@@ -152,6 +159,7 @@ class ViewController: UIViewController {
             showAlert(message: "You are not right, try again!")
         }
     }
+    
     func addScore () {
         if Int(decisionLabel.currentTitle!) == sumOfNumbers && secondsOfTimer != 0 {
             self.strick += 1
