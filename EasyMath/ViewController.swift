@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  mathExercises2
+//  Easy math
 //
 //  Created by Michael Sidoruk on 04/09/2018.
 //  Copyright © 2018 Michael Sidoruk. All rights reserved.
@@ -33,9 +33,9 @@ class ViewController: UIViewController {
     var sumOfNumbers = 0
     
     enum SwitchLevel: Int {
-        case easy = 10
-        case normal = 8
-        case hard = 6
+        case easy = 6
+        case normal = 7
+        case hard = 8
     }
     
     override func viewDidLoad() {
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         resetStatusStartCheckButton()
         
         decisionLabel.setTitle("", for: .normal)
-        decisionLabel.layer.cornerRadius = 10
+        decisionLabel.layer.cornerRadius = 7
         decisionLabel.layer.masksToBounds = true
         taskLabel.isHidden = true
         enableZeroToNineButtons(false)
@@ -115,9 +115,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction func setDecisionAction(_ sender: UIButton) {
-        decisionLabel.imageView?.stopAnimating()
         if decisionLabel.currentTitle!.count != 4 {
-            decisionLabel.setTitle(decisionLabel.currentTitle! + sender.titleLabel!.text!, for: .normal)
+            guard let titleLabel = sender.titleLabel!.text else {  //check for unrap, just example
+                print("titleLabel - nil")
+                return
+            }
+            decisionLabel.setTitle(decisionLabel.currentTitle! + titleLabel, for: .normal)
             decisionLabel.isHidden = false
             enableZeroToNineButtons(true)
             if decisionLabel.currentTitle!.count == 4 {
@@ -137,7 +140,7 @@ class ViewController: UIViewController {
    
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
     
-        let action = UIAlertAction(title: "A next example", style: .default, handler: {
+        let action = UIAlertAction(title: "Next", style: .default, handler: {
         action in
         self.addScore()
         self.newRound()
@@ -167,7 +170,7 @@ class ViewController: UIViewController {
             scoreLabel.text = String(score)
         } else {
             self.strick = 0
-            self.score -= 10
+            self.score -= Int.random(in: 9...23)
             scoreLabel.text = String(score)
         }
     }
