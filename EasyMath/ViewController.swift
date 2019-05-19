@@ -103,7 +103,7 @@ class ViewController: UIViewController {
                 button.layer.backgroundColor = #colorLiteral(red: 0.2235294118, green: 0.2431372549, blue: 0.2745098039, alpha: 0.3592947346)
                 button.setTitleColor(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.3564854452), for: .disabled)
             }
-            button.layer.cornerRadius = 42
+            button.layer.cornerRadius = button.layer.frame.size.width / 2
             button.layer.masksToBounds = true
         }
     }
@@ -112,28 +112,6 @@ class ViewController: UIViewController {
         startCheckButton.setTitle("Start", for: .normal)
         startCheckButton.backgroundColor = #colorLiteral(red: 0.9332413673, green: 0.9333977103, blue: 0.9332208037, alpha: 1)
         startCheckButton.setTitleColor(#colorLiteral(red: 0, green: 0.6784313725, blue: 0.7098039216, alpha: 1), for: .normal)
-    }
-    
-    @IBAction func setDecisionAction(_ sender: UIButton) {
-        if decisionLabel.currentTitle!.count != 4 {
-            guard let titleLabel = sender.titleLabel!.text else {  //check for unrap, just example
-                print("titleLabel - nil")
-                return
-            }
-            decisionLabel.setTitle(decisionLabel.currentTitle! + titleLabel, for: .normal)
-            decisionLabel.isHidden = false
-            enableZeroToNineButtons(true)
-            if decisionLabel.currentTitle!.count == 4 {
-                enableZeroToNineButtons(false)
-            }
-        }
-    }
-    
-    @IBAction func cleanValueAction(_ sender: UIButton) {
-        if decisionLabel.currentTitle != "" {
-        decisionLabel.setTitle(String(decisionLabel.titleLabel!.text!.dropLast()), for: .normal)
-        enableZeroToNineButtons(true)
-        }
     }
     
     func showAlert(message: String) {
@@ -153,15 +131,6 @@ class ViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
     
-    @IBAction func checkResultOfTaskAction(_ sender: UIButton) {
-        if startCheckButton.titleLabel?.text == "Start" {
-            newRound()
-        } else {
-        Int(decisionLabel.currentTitle!) == sumOfNumbers ?
-            showAlert(message: "You are right!") :
-            showAlert(message: "You are not right, try again!")
-        }
-    }
     
     func addScore () {
         if Int(decisionLabel.currentTitle!) == sumOfNumbers && secondsOfTimer != 0 {
@@ -172,6 +141,38 @@ class ViewController: UIViewController {
             self.strick = 0
             self.score -= Int.random(in: 9...23)
             scoreLabel.text = String(score)
+        }
+    }
+    
+    @IBAction func setDecisionAction(_ sender: UIButton) {
+        if decisionLabel.currentTitle!.count != 4 {
+            guard let titleLabel = sender.titleLabel!.text else {  //check for unrap, just example
+                print("titleLabel - nil")
+                return
+            }
+            decisionLabel.setTitle(decisionLabel.currentTitle! + titleLabel, for: .normal)
+            decisionLabel.isHidden = false
+            enableZeroToNineButtons(true)
+            if decisionLabel.currentTitle!.count == 4 {
+                enableZeroToNineButtons(false)
+            }
+        }
+    }
+    
+    @IBAction func checkResultOfTaskAction(_ sender: UIButton) {
+        if startCheckButton.titleLabel?.text == "Start" {
+            newRound()
+        } else {
+            Int(decisionLabel.currentTitle!) == sumOfNumbers ?
+                showAlert(message: "You are right!") :
+                showAlert(message: "You are not right, try again!")
+        }
+    }
+    
+    @IBAction func cleanValueAction(_ sender: UIButton) {
+        if decisionLabel.currentTitle != "" {
+            decisionLabel.setTitle(String(decisionLabel.titleLabel!.text!.dropLast()), for: .normal)
+            enableZeroToNineButtons(true)
         }
     }
     
